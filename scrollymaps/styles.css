@@ -83,22 +83,24 @@ figure img {
 
 .step {
 	margin: 0 auto 2rem auto;
-	padding: 1rem;
-	background-color: #ddd;
-	color: #3b3b3b;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.1)
 }
 
 .step:last-child {
 	margin-bottom: 0;
 }
 
-.step.is-active {
-	background-color: #c5d2d9;
+.step.is-active p {
+	background-color: goldenrod;
+	color: #3b3b3b;
 }
 
 .step p {
 	text-align: center;
-	/*padding: 1rem;*/
+	padding: 1rem;
+	font-size: 1.5rem;
+	background-color: #3b3b3b;
 }
 
 #mapB,
